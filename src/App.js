@@ -149,6 +149,7 @@ export const App = () => {
                   </Table>
                 </TableContainer>
               </div>
+              {forms.length > 1 && (
               <Button
                 variant="contained"
                 size="small"
@@ -156,7 +157,7 @@ export const App = () => {
                 onClick={() => setforms([])}
               >
                 Remove All
-              </Button>
+              </Button>)}
                </>
           )}
           {forms.length < 1 && <div>No data added yet</div>}
