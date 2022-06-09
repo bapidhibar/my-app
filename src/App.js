@@ -132,15 +132,15 @@ export const App = () => {
                   <Table>
                     <TableHead>
                       <TableRow>
-                        <TableCell>Name</TableCell>
+                        <TableCell><strong>Name</strong></TableCell>
 
-                        <TableCell>Age</TableCell>
+                        <TableCell><strong>Age</strong></TableCell>
 
-                        <TableCell>D.O.B</TableCell>
+                        <TableCell><strong>D.O.B</strong></TableCell>
 
-                        <TableCell>Gender</TableCell>
+                        <TableCell><strong>Gender</strong></TableCell>
 
-                        <TableCell>Delete</TableCell>
+                        <TableCell><strong>Delete</strong></TableCell>
                       </TableRow>
                     </TableHead>
                     <TableBody>
